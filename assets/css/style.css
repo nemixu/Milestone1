@@ -1,0 +1,31 @@
+/* font family
+
+font-family: 'Roboto', sans-serif;
+*/
+
+.navbar {
+         background: #3f2121!important;
+         padding-bottom:0;
+         padding-top:0;
+         color: black;
+         text-align:center;
+         font-family: 'Roboto', sans-serif;
+         font-size:18px;
+         }
+
+.nav-link {
+        color:#000!important;
+}
+
+
+.menuitem a{
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:0;
+    padding: .3rem .7rem;
+}
+
+#logomain {
+    width:65px;
+    height:65px;
+}
