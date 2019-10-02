@@ -1,31 +1,116 @@
 /* font family
-
+#003cdb   blue
+#0e5d43   dark green
+#0e945d   light green
+#af4bec   light purple
+#9c54f5	  dark purple
 font-family: 'Roboto', sans-serif;
 */
 
-.navbar {
-         background: #3f2121!important;
-         padding-bottom:0;
-         padding-top:0;
-         color: black;
-         text-align:center;
-         font-family: 'Roboto', sans-serif;
-         font-size:18px;
-         }
-
-.nav-link {
-        color:#000!important;
-}
+/*------------Colours--------------*/
 
 
-.menuitem a{
-    color:#000;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom:0;
-    padding: .3rem .7rem;
-}
+/*------------Images and Logos--------------*/
 
 #logomain {
     width:65px;
     height:65px;
 }
+
+/*------------Text--------------*/
+.text-style {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*------------Navbar--------------*/
+
+
+.navbar {
+         background:#d7a1f8!important;
+         padding-bottom:0;
+         padding-top:0;
+         color: #fafafa;
+         text-align:center;
+         font-size:16px;
+         }
+
+
+/*-----Navbar text-----*/
+
+.nav-link {
+        color:#fafafa!important;
+}
+
+
+
+/*-----Styling-----*/
+
+.intro {
+    background: url("../images/hand.jpg") no-repeat center 75%;
+    height: 85vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(.3px);
+
+}
+
+.intro-text{
+    margin: 0px 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+    color:#fafafa;
+    font-size:2.4rem;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    text-shadow: 0.1px 0.8px 0px black;
+}
+
+/*-----Footer-----*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 15px;
+}
+
+.social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size:13px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+}
+
+
+
