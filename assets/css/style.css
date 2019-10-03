@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;
 /*------------Colours--------------*/
 
 
-/*------------Images and Logos--------------*/
+/*------------Company logo--------------*/
 
 #logomain {
     width:65px;
@@ -47,41 +47,42 @@ font-family: 'Roboto', sans-serif;
 
 
 
-/*-----Styling-----*/
-
-.intro {
-    background: url("../images/hand.jpg") no-repeat center 75%;
+/*-----Landing Page Image-----*/
+#intro {
     height: 85vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+#intro-image {
+    background: url("../images/hand.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
-
+    z-index: -1;
 }
 
-.intro-text{
+#landing-text {
     margin: 0px 40px;
     padding-left: 15px;
     padding-top: 20px;
     color:#fafafa;
     font-size:2.4rem;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
     text-shadow: 0.1px 0.8px 0px black;
-}
+    }
 
 /*-----Footer-----*/
 
