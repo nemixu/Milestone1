@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /* font family
 #003cdb   blue
 #0e5d43   dark green
@@ -30,26 +32,26 @@ font-family: 'Roboto', sans-serif;
 
 
 .navbar {
-         background:#d7a1f8!important;
+         background:transparent!important;
          padding-bottom:0;
          padding-top:0;
-         color: #fafafa;
          text-align:center;
          font-size:16px;
-         }
+                  }
 
 
 /*-----Navbar text-----*/
 
 .nav-link {
-        color:#fafafa!important;
+        color:#1f2833!important;
+        font-size: 2.4v
 }
 
 
 
 /*-----Landing Page Image-----*/
 #intro {
-    height: 85vh;
+    height: 55vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -57,7 +59,7 @@ font-family: 'Roboto', sans-serif;
     position:relative;
 }
 #intro-image {
-    background: url("../images/hand.jpg") no-repeat center 75%;
+    background: url("../images/hands.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,12 +69,9 @@ font-family: 'Roboto', sans-serif;
     right:0;
     bottom:0;
     left:0;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    filter: grayscale(20%);
     z-index: -1;
+
 }
 
 #landing-text {
@@ -83,6 +82,23 @@ font-family: 'Roboto', sans-serif;
     font-size:2.4rem;
     text-shadow: 0.1px 0.8px 0px black;
     }
+
+/*-----Landing page about section-----*/
+
+.container-wrapper-welcome{
+
+}
+
+.about-header{
+
+}
+
+
+
+
+
+
+
 
 /*-----Footer-----*/
 
