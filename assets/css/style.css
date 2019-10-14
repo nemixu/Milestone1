@@ -9,7 +9,13 @@
 font-family: 'Roboto', sans-serif;
 */
 
+
+
 /*------------Colours--------------*/
+
+
+
+
 
 
 /*------------Company logo--------------*/
@@ -25,80 +31,101 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
+.about-header {
+    text-align: center;
+}
 
+.white-text {
+    padding-bottom:10px;
+}
 
+.page-text {
+    padding-bottom:10px;
+    color:red!important;
+    text-align:center;
+
+}
+
+.service-text {
+    text-align:center;
+    font-size: 13px!important;
+}
 
 /*------------Navbar--------------*/
 
 
 .navbar {
-         background:transparent!important;
+         background:red!important;
          padding-bottom:0;
          padding-top:0;
          text-align:center;
          font-size:16px;
                   }
 
-
-/*-----Navbar text-----*/
-
 .nav-link {
         color:#1f2833!important;
-        font-size: 2.4v
+        font-size: 2.4vh;
 }
 
 
 
 /*-----Landing Page Image-----*/
-#intro {
-    height: 55vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative;
-}
 #intro-image {
-    background: url("../images/hands.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.8) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/people.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position:absolute;
+    position:relative;
     top:0;
     right:0;
     bottom:0;
     left:0;
     filter: grayscale(20%);
-    z-index: -1;
-
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
 }
 
 #landing-text {
     margin: 0px 40px;
     padding-left: 15px;
-    padding-top: 20px;
     color:#fafafa;
-    font-size:2.4rem;
     text-shadow: 0.1px 0.8px 0px black;
+    text-align: center;
     }
+
+#landing-sub {
+    margin:0;
+    color:#fafafa;
+    font-size:1.6rem;
+    padding-top:2rem;
+    text-shadow: 0.1px 0.8px 0px black;
+    text-align: center;
+
+}
 
 /*-----Landing page about section-----*/
 
-.container-wrapper-welcome{
-
-}
-
-.about-header{
-
+.main-section {
+    padding-top:200px;
+    padding-bottom:200px;
 }
 
 
 
+/*-----Services Main-----*/
+.support-section {
+    padding:128px;
+}
 
+/*-----Contact Us section-----*/
 
-
-
+#contact {
+    padding:128px;
+}
 
 /*-----Footer-----*/
 
@@ -107,10 +134,12 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+
 }
 
 #footer-details {
     padding: 15px;
+
 }
 
 .social-links li a i {
@@ -130,4 +159,9 @@ footer {
 }
 
 
-
+@media (min-width: 320px) {
+        /* Landing page main text */
+        #landing-text {
+            font-size:2.5rem;
+        }
+}
