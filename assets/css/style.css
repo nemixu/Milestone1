@@ -71,7 +71,7 @@ font-family: 'Roboto', sans-serif;
 
 /*-----Landing Page Image-----*/
 #intro-image {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.8) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/people.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.8) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/hand2.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -157,6 +157,21 @@ footer {
         -webkit-transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
 }
+
+/*-----About page background------*/
+
+.background-img {
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.8) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/people.jpg") no-repeat center 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
 
 
 @media (min-width: 320px) {
