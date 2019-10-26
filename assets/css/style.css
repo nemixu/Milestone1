@@ -9,7 +9,9 @@
 font-family: 'Roboto', sans-serif;
 */
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 /*------------Colours--------------*/
 
@@ -56,16 +58,16 @@ font-family: 'Roboto', sans-serif;
 }
 
 .service-circle {
-    font-size: 250px;
+    font-size: 150px;
     color: #f59393;
     text-align: center;
     width: 100%;
 }
 
 .service-icon {
-    font-size: 90px;
+    font-size: 50px;
     left: 0;
-    top: 90px;
+    top: 50px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -116,6 +118,7 @@ font-family: 'Roboto', sans-serif;
     color:#fafafa;
     text-shadow: 0.1px 0.8px 0px black;
     text-align: center;
+    font-weight: 300;
     }
 
 #landing-sub {
@@ -150,7 +153,7 @@ font-family: 'Roboto', sans-serif;
 /*-----Contact Us section-----*/
 
 #contact {
-    padding:128px;
+    padding:200px 40px;
 
 }
 
@@ -201,7 +204,7 @@ footer {
 
 /*-----Contact page background------*/
     .earth-mast {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/map.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.1) 0%, rgba(66, 55, 47, 0.5) 60%), url(../images/contact.jpg) no-repeat center 75%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,13 +222,53 @@ footer {
         margin-bottom:200px;
     }
 
+    .contact-header {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 50px;
+    }
 
+    .contact-hello {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 30px;
+    }
 
+    #contact-name {
+    margin-bottom: 20px;
+    }
+
+    #contact-message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    #contactButton {
+    color: #fff;
+    background-color: #bbb5b17d;
+    border-color: transparent!important;
+    margin-top: 20px;
+    width: 100px;
+    }
 /*-----Media Queries------*/
 
 @media (min-width: 320px) {
-        /* Landing page main text */
+        /* Landing page main text for small screens*/
         #landing-text {
             font-size:2.5rem;
         }
+}
+
+@media (min-width: 768px) {
+        /* Landing page main text for medium screens*/
+        #landing-text {
+            font-size: 3rem;
+            }
+}
+
+@media (min-width: 992px) {
+        /* Landing page main text for medium screens*/
+        #landing-text {
+            font-size: 4rem;
+            }
 }
