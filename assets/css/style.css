@@ -13,7 +13,11 @@ font-family: 'Roboto', sans-serif;
 
 /*------------Colours--------------*/
 
-
+.line-divider {
+    color:black!important;
+    max-width: 2.6rem;
+    border-width: .2rem;
+}
 
 
 
@@ -51,11 +55,28 @@ font-family: 'Roboto', sans-serif;
     font-size: 13px!important;
 }
 
+.service-circle {
+    font-size: 250px;
+    color: #f59393;
+    text-align: center;
+    width: 100%;
+}
+
+.service-icon {
+    font-size: 90px;
+    left: 0;
+    top: 90px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #fafafa;
+}
+
 /*------------Navbar--------------*/
 
 
 .navbar {
-         background:red!important;
+         background:rgba(111, 111, 222, 0.3)!important;
          padding-bottom:0;
          padding-top:0;
          text-align:center;
@@ -71,7 +92,7 @@ font-family: 'Roboto', sans-serif;
 
 /*-----Landing Page Image-----*/
 #intro-image {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.7) 0%, rgba(73, 65, 59, 0.7) 100%), url("../images/hand2.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.5) 0%, rgba(73, 65, 59, 0.5) 100%), url("../images/hand2.jpg") no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,11 +135,16 @@ font-family: 'Roboto', sans-serif;
     padding-bottom:200px;
 }
 
+.main-section-about {
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
 
 
 /*-----Services Main-----*/
 .support-section {
-    padding:128px;
+    padding:200px 40px;
 }
 
 /*-----Contact Us section-----*/
@@ -160,9 +186,9 @@ footer {
 }
 
 /*-----About page background------*/
-
+/*- background-color: rgb(101, 92, 86); */
 .background-img {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.6) 0%, rgba(66, 55, 47, 0.6) 100%), url("../images/people.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 80%, rgba(66, 55, 47, 0.8) 100%), url(../images/book.jpg) no-repeat center 85%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,7 +199,29 @@ footer {
     position: absolute;
 }
 
+/*-----Contact page background------*/
+    .earth-mast {
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 0%, rgba(66, 55, 47, 0.8) 100%), url("../images/map.jpg") no-repeat center 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index:-1;
 
+    }
+
+     #contact-box {
+        margin-top:200px;
+        margin-bottom:200px;
+    }
+
+
+
+/*-----Media Queries------*/
 
 @media (min-width: 320px) {
         /* Landing page main text */
