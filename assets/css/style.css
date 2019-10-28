@@ -45,25 +45,35 @@ html {
     padding-bottom:10px;
 }
 
-.page-text {
+.service-subtext {
     padding-bottom:10px;
-    color:red!important;
+    color: #65655E;
     text-align:center;
+    font-size:1rem;
 
 }
 
 .service-text {
     text-align:center;
-    font-size: 13px!important;
+    color: #65655E;
+}
+
+.service-paratext {
+    color: #65655E;
 }
 
 .service-circle {
     font-size: 150px;
-    color: #f59393;
+    color: #fafafaa6;
     text-align: center;
     width: 100%;
+    text-shadow: 2px 9px 15px #e9ecef24;
 }
 
+.service-maintext {
+    font-size:3rem;
+    color: #fafafaa6;
+}
 .service-icon {
     font-size: 50px;
     left: 0;
@@ -71,7 +81,7 @@ html {
     position: absolute;
     text-align: center;
     width: 100%;
-    color: #fafafa;
+    color: #C6AFB1;
 }
 
 /*------------Navbar--------------*/
@@ -146,9 +156,13 @@ html {
 
 
 /*-----Services Main-----*/
+
 .support-section {
     padding:200px 40px;
+    background-color: #C6AFB1;
 }
+
+
 
 /*-----Contact Us section-----*/
 
