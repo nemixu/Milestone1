@@ -21,8 +21,23 @@ html {
     border-width: .2rem;
 }
 
+.purple-divider {
+    max-width: 2.6rem;
+    border-width: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid rgb(126, 72, 185);
+}
 
-
+.white-divider {
+    max-width: 2.6rem;
+    border-width: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid #fafafa;
+}
 
 /*------------Company logo--------------*/
 
@@ -74,6 +89,7 @@ html {
 .service-maintext {
     font-size:3rem;
     color: #ffffff;
+    font-weight: 300;
 }
 .service-icon {
     font-size: 50px;
@@ -87,7 +103,6 @@ html {
 
 /*------------Navbar--------------*/
 
-
 .navbar {
          background:rgba(111, 111, 222, 0.3)!important;
          padding-bottom:0;
@@ -100,7 +115,6 @@ html {
         color:#1f2833!important;
         font-size: 2.4vh;
 }
-
 
 
 /*-----Landing Page Image-----*/
@@ -145,6 +159,7 @@ html {
 .home-main {
     padding-bottom: 200px;
     padding-top: 200px;
+    background-color: #fafafa;
 }
 
 .home-maintext {
@@ -152,6 +167,19 @@ html {
     font-size: 40px;
 
 }
+
+.btn-light {
+    color: #e1e1e1;
+    background-color: #7e48b9;
+    border-color: #7e48b9;
+}
+
+.btn-light:hover {
+    color: #fafafa;
+    background-color: #7e48b9b5;
+}
+
+
 /*-----Services Main-----*/
 
 .support-section {
@@ -159,15 +187,35 @@ html {
     background-color: #C6AFB1;
 }
 
+/*-----volunteering section-----*/
 
+.volunteer-section {
+    padding: 200px 40px;
+    background-color: #7e48b9;
+}
 
+.contact-text {
+    font-weight:300;
+    color:#fafafa;
+    }
 
+.contact-subheading {
+    color: #fafafa;
+    font-weight: 400;
+}
 
-/*-----Contact Us section-----*/
+#volunteer-text {
+    color: #ffffff;
+}
 
-#contact {
-    padding:200px 40px;
+.btn-warning {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
 
+.btn-warning:hover {
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
 }
 
 /*-----Footer-----*/
@@ -205,7 +253,8 @@ footer {
 
 /*- background-color: rgb(101, 92, 86); */
 .background-img {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 80%, rgba(66, 55, 47, 0.8) 100%), url(../images/book.jpg) no-repeat center 85%;
+    background: linear-gradient(to bottom, rgba(208, 206, 206, 0.92) 80%, rgb(255, 255, 255) 100%), url(../images/about.jpg) no-repeat center 85%;
+   /* background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 80%, rgba(66, 55, 47, 0.8) 100%), url(../images/about.jpg) no-repeat center 85%; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +267,6 @@ footer {
     z-index: -1;
 }
 
-
 .profile-head {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -229,7 +277,7 @@ footer {
     border-radius: 50%;
     height: 150px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
-    border-style: outset;
+    border-style: inset;
     border-color: #8787a9;
 
 }
@@ -237,6 +285,17 @@ footer {
 #johnphoto {
     border-radius: 50%;
     height: 150px;
+    width:150px;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.1);
+    border-style: outset;
+    border-color: #8787a9;
+
+}
+
+#willphoto {
+    border-radius: 50%;
+    height: 150px;
+    width:150px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
     border-style: outset;
     border-color: #8787a9;
@@ -253,7 +312,8 @@ footer {
 }
 
 .main-section {
-    padding-bottom:200px;
+    margin-top: 100px;
+    margin-bottom:200px;
 }
 
 .main-section-about {
@@ -261,6 +321,10 @@ footer {
     padding-bottom:200px;
 }
 
+.about-mainheader {
+    font-weight: 200;
+    letter-spacing: 1px;
+}
 /*-----Contact page background------*/
     .earth-mast {
     background: linear-gradient(to bottom, rgba(136, 136, 136, 0.1) 0%, rgba(66, 55, 47, 0.5) 60%), url(../images/contact.jpg) no-repeat center 75%;
@@ -341,4 +405,7 @@ footer {
         #landing-text {
             font-size: 4rem;
             }
+        .background-img {
+            height: 65vh;
+        }
 }
