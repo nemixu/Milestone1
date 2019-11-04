@@ -179,7 +179,9 @@ html {
     background-color: #7e48b9b5;
 }
 
-
+#contactButton {
+    width: 100px;
+}
 /*-----Services Main-----*/
 
 .support-section {
@@ -206,6 +208,7 @@ html {
 
 #volunteer-text {
     color: #ffffff;
+    padding: 20px;
 }
 
 .btn-warning {
@@ -216,6 +219,21 @@ html {
 .btn-warning:hover {
     background-color: #a9a9a9;
     border-color: #a9a9a9;
+}
+
+.btn-warning.focus, .btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem #dee2e600;
+}
+
+.btn-warning:not(:disabled):not(.disabled):active{
+    color: #212529;
+    background-color: #e1e1e1;
+    border-color: #e1e1e1;
+}
+.w-100 {
+    width: 100%!important;
+    /*--Margin left added to the modal to center text as the close button offsets slightly--*/
+    margin-left: 30px;
 }
 
 /*-----Footer-----*/
@@ -327,7 +345,7 @@ footer {
 }
 /*-----Contact page background------*/
     .earth-mast {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.1) 0%, rgba(66, 55, 47, 0.5) 60%), url(../images/contact.jpg) no-repeat center 75%;
+    background: linear-gradient(to bottom, #dee2e6de 0%, rgba(126, 72, 185, 0.17) 60%), url(../images/dublin.jpg) no-repeat center 75%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,9 +358,9 @@ footer {
 
     }
 
-     #contact-box {
-        margin-top:200px;
-        margin-bottom:200px;
+    #contact-box {
+    margin-top:200px;
+    margin-bottom:200px;
     }
 
     .contact-header {
@@ -355,25 +373,27 @@ footer {
     color: #fafafa;
     font-weight: 300;
     font-size: 30px;
+    margin-bottom: 50px;
     }
 
     #contact-name {
     margin-bottom: 20px;
     }
 
-    #contact-message {
-    margin-top: 20px;
+    #contact-email {
     margin-bottom: 20px;
     }
 
-    #contactButton {
-    color: #fff;
-    background-color: #bbb5b17d;
-    border-color: transparent!important;
-    margin-top: 20px;
-    width: 100px;
+    #contact-message {
+    margin-bottom: 20px;
+    height: 97px;
     }
 
+    #contactButton {
+    width: 100px;
+    border-color: transparent!important;
+    margin-top: 20px;
+    }
 
 /*-----Media Queries------*/
 
