@@ -62,7 +62,7 @@ html {
 
 .service-subtext {
     padding-bottom:10px;
-    color: #65655E;
+    color: #ffffff;
     text-align:center;
     font-size:1rem;
 
@@ -70,11 +70,11 @@ html {
 
 .service-text {
     text-align:center;
-    color: #65655E;
+    color: #ffffff;
 }
 
 .service-paratext {
-    color: #65655E;
+    color: #ffffff;
 }
 
 .service-circle {
@@ -98,28 +98,33 @@ html {
     position: absolute;
     text-align: center;
     width: 100%;
-    color: #C6AFB1;
+    color: #7e48b9;
 }
+
 
 /*------------Navbar--------------*/
 
 .navbar {
-         background:rgba(111, 111, 222, 0.3)!important;
+         background:#212529;
          padding-bottom:0;
          padding-top:0;
          text-align:center;
          font-size:16px;
-                  }
+         box-shadow: 0px 3px 5px rgba(0,0,0,.2);
+}
 
 .nav-link {
-        color:#1f2833!important;
+        color: #ffffff!important;
         font-size: 2.4vh;
 }
 
+.navbar-light .navbar-brand {
+    color: #ffffff!important;
+}
 
 /*-----Landing Page Image-----*/
 #intro-image {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.5) 0%, rgba(73, 65, 59, 0.5) 100%), url("../images/hand2.jpg") no-repeat center 75%;
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/hand2.jpg) no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,15 +145,15 @@ html {
 #landing-text {
     margin: 0px 40px;
     padding-left: 15px;
-    color:#fafafa;
-    text-shadow: 0px 3px 3px rgba(0,0,0,.1);
+    color:#ffffff;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.2);
     text-align: center;
     font-weight: 300;
     }
 
 #landing-sub {
     margin:0;
-    color:#fafafa;
+    color:#ffffff;
     font-size:1.6rem;
     padding-top:2rem;
     text-align: center;
@@ -186,39 +191,40 @@ html {
 
 .support-section {
     padding:200px 40px;
-    background-color: #C6AFB1;
+    background-color: #7e48b9;
 }
 
 /*-----volunteering section-----*/
 
 .volunteer-section {
     padding: 200px 40px;
-    background-color: #7e48b9;
+    background-color: #ffffff;
 }
 
 .contact-text {
     font-weight:300;
-    color:#fafafa;
+    color: #000000;
     }
 
 .contact-subheading {
-    color: #fafafa;
+    color: #000000;
     font-weight: 400;
 }
 
 #volunteer-text {
-    color: #ffffff;
+    color: #000000;
     padding: 20px;
 }
 
 .btn-warning {
-    background-color: #ffffff;
-    border-color: #ffffff;
+    background-color: #7E48B9;
+    border-color: #7E48B9;
+    color: #fff;
 }
 
 .btn-warning:hover {
-    background-color: #a9a9a9;
-    border-color: #a9a9a9;
+    background-color: #7E48B9;
+    border-color: #7E48B9;
 }
 
 .btn-warning.focus, .btn-warning:focus {
@@ -239,7 +245,7 @@ html {
 /*-----Footer-----*/
 
 footer {
-    background-color: #525252;
+    background-color: #212529;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -417,7 +423,6 @@ footer {
             #landing-sub {
             font-size: 2rem;
         }
-}
 }
 
 @media (min-width: 992px) {
