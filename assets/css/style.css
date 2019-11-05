@@ -184,9 +184,7 @@ html {
     background-color: #7e48b9b5;
 }
 
-#contactButton {
-    width: 100px;
-}
+
 /*-----Services Main-----*/
 
 .support-section {
@@ -295,14 +293,28 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
+    color:#ffffff
 }
+
+.profile-team {
+    background-color:#212529;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+.profile-text {
+    color:#ffffff;
+}
+
+
 
 #emmaphoto {
     border-radius: 50%;
     height: 150px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
     border-style: inset;
-    border-color: #8787a9;
+    border-color: #7e48b9;
 
 }
 
@@ -312,7 +324,7 @@ footer {
     width:150px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
     border-style: outset;
-    border-color: #8787a9;
+    border-color: #7e48b9;
 
 }
 
@@ -322,18 +334,18 @@ footer {
     width:150px;
     text-shadow: 0px 3px 3px rgba(0,0,0,.1);
     border-style: outset;
-    border-color: #8787a9;
+    border-color: #7e48b9;
 
 }
 
  .welcome-text {
         font-weight: 300;
+        color:#ffffff;
+        margin-bottom: 20px;
 
 }
 
-.profile-maintext {
-        margin-top:150px;
-}
+
 
 .main-section {
     margin-top: 100px;
@@ -364,9 +376,10 @@ footer {
 
     }
 
-    #contact-box {
-    margin-top:200px;
-    margin-bottom:200px;
+    .contact-main {
+        padding-top: 200px;
+        padding-bottom:200px;
+        background-color: #7e48b9;
     }
 
     .contact-header {
@@ -399,8 +412,10 @@ footer {
     width: 100px;
     border-color: transparent!important;
     margin-top: 20px;
-    }
-
+    width: 100px;
+    background-color:#ffffff;
+    color: #000;
+}
 /*-----Media Queries------*/
 
 @media (min-width: 320px) {
