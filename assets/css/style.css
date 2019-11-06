@@ -30,6 +30,14 @@ html {
     border-top: 1px solid rgb(126, 72, 185);
 }
 
+.purple-line {
+    border-width: .2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid rgb(126, 72, 185);
+}
+
 .white-divider {
     max-width: 2.6rem;
     border-width: .2rem;
@@ -52,12 +60,14 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.about-header {
-    text-align: center;
-}
-
 .white-text {
     padding-bottom:10px;
+    color: #ffffff;
+}
+
+.black-text {
+    padding-bottom:10px;
+    color: #000000;
 }
 
 .service-subtext {
@@ -318,6 +328,16 @@ footer {
 
 }
 
+#audreyphoto {
+    border-radius: 50%;
+    height: 150px;
+    text-shadow: 0px 3px 3px rgba(0,0,0,.1);
+    border-style: inset;
+    border-color: #7e48b9;
+
+
+}
+
 #johnphoto {
     border-radius: 50%;
     height: 150px;
@@ -345,8 +365,6 @@ footer {
 
 }
 
-
-
 .main-section {
     margin-top: 100px;
     margin-bottom:200px;
@@ -361,6 +379,22 @@ footer {
     font-weight: 200;
     letter-spacing: 1px;
 }
+/*newsection*/
+.about-section {
+    padding-top:200px;
+    padding-bottom:200px;
+    padding-left:70px;
+    padding-right:70px;
+    background-color:#212529;
+
+}
+.about-subsection {
+    color:#ffffff;
+    font-weight:300;
+
+}
+
+
 /*-----Contact page background------*/
     .earth-mast {
     background: linear-gradient(to bottom, #dee2e6de 0%, rgba(126, 72, 185, 0.17) 60%), url(../images/dublin.jpg) no-repeat center 75%;
