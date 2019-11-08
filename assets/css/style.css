@@ -240,8 +240,9 @@ html {
 }
 
 .btn-warning:hover {
-    background-color: #7E48B9;
+    background-color: #7e48b9b5;
     border-color: #7E48B9;
+    color:#ffffff
 }
 
 .btn-warning.focus, .btn-warning:focus {
@@ -263,31 +264,86 @@ html {
 
 footer {
     background-color: #212529;
-    color: #fafafa;
+    color: #ffffff;
     min-height: 120px;
     margin: 0;
+    text-align: center;
+}
+
+.footer-spacing {
+    padding-top: 20px;
+    padding-bottom:20px;
 
 }
+.general-sub{
+    color:#ffffff;
+    padding-bottom:5px;
+}
+
+.additional-links-footer {
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+.additional-links-footer li a {
+    color:#ffffff;
+}
+
+.additional-links-footer li a:hover {
+    color:#7e48b9;
+}
+
 
 #footer-details {
     padding: 15px;
 
 }
 
+ul {
+    list-style-type: none;
+}
+
 .social-links li a i {
-        width: 32px;
-        height: 32px;
-        padding: 12px 0;
+        width: 52px;
+        height: 52px;
+        padding: 22px 0;
         border-radius: 50%;
-        font-size:13px;
+        font-size: 23px;
         line-height: 7px;
         text-align: center;
-        color: #fafafa;
-        background: #8f8f8f;
+        color: #ffffff;
+        background: #7E48B9;
         transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
         -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+        color: #7E48B9;
+        background: #ffffff;
+}
+
+.btn-success {
+    background-color: #7E48B9;
+    border-color: #7E48B9;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #7e48b9b5;
+    border-color: #7E48B9;
+    color:#ffffff
+}
+
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgb(126, 72, 185);
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #7e48b9;
+    border-color: #7e48b9;
 }
 
 /*-----About page background------*/
