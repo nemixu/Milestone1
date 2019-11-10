@@ -50,6 +50,7 @@ html {
 .white-text {
     padding-bottom: 10px;
     color: #ffffff;
+    text-align: left;
 }
 
 .black-text {
@@ -215,6 +216,7 @@ to make it seem it is floating slightly--*/
 
 .profile-text {
     color: #ffffff;
+    text-align: center;
 }
 
 .team-padding {
@@ -491,8 +493,14 @@ ul {
     .footer-spacing-sub {
     padding-top: 10px;
     padding-bottom: 0px;;
-
 }
+    .about-subsection {
+    text-align: center;
+    }
+
+    .white-text {
+    text-align: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -509,8 +517,11 @@ ul {
     .footer-spacing-sub {
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
+    .white-text {
+    text-align: left;
+    }
+
 }
 
 @media (min-width: 992px) {
