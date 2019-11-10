@@ -322,6 +322,12 @@ to make it seem it is floating slightly--*/
     margin-left: 30px;
 }
 
+.btn-unique {
+    background-color: #7E48B9;
+    border-color: #7E48B9;
+    color: #ffffff;
+}
+
 /*-----Contact us Section-----*/
 .contact-main {
     padding: 200px 40px;
