@@ -108,8 +108,7 @@ to make it seem it is floating slightly--*/
 /*--Use of important here to override the set colours in bootstrap--*/
 .nav-link {
     color: #ffffff !important;
-    font-size: 2.4vh;
-}
+    }
 
 .nav-link:hover {
     color: #7e48b9 !important;
