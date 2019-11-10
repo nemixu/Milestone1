@@ -351,21 +351,7 @@ ul {
 
 /*-----About page background------*/
 
-/*- background-color: rgb(101, 92, 86); */
-.background-img {
-    background: linear-gradient(to bottom, rgba(208, 206, 206, 0.92) 80%, rgb(255, 255, 255) 100%), url(../images/about.jpg) no-repeat center 85%;
-    /* background: linear-gradient(to bottom, rgba(136, 136, 136, 0.9) 80%, rgba(66, 55, 47, 0.8) 100%), url(../images/about.jpg) no-repeat center 85%; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    height: 80vh;
-    z-index: -1;
-}
+
 
 .profile-head {
     padding-top: 30px;
@@ -389,8 +375,6 @@ ul {
     padding: 0px 40px;
 }
 
-
-
 #emmaphoto {
     border-radius: 50%;
     height: 150px;
@@ -406,8 +390,6 @@ ul {
     text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
     border-style: inset;
     border-color: #7e48b9;
-
-
 }
 
 #johnphoto {
@@ -417,7 +399,6 @@ ul {
     text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
     border-style: outset;
     border-color: #7e48b9;
-
 }
 
 #willphoto {
@@ -427,7 +408,6 @@ ul {
     text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
     border-style: outset;
     border-color: #7e48b9;
-
 }
 
 .welcome-text {
@@ -435,21 +415,6 @@ ul {
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 40px;
-}
-
-.main-section {
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.main-section-about {
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.about-mainheader {
-    font-weight: 200;
-    letter-spacing: 1px;
 }
 
 /*newsection*/
@@ -462,22 +427,6 @@ ul {
 .about-subsection {
     color: #ffffff;
     font-weight: 300;
-
-}
-
-
-/*-----Contact page background------*/
-.earth-mast {
-    background: linear-gradient(to bottom, #dee2e6de 0%, rgba(126, 72, 185, 0.17) 60%), url(../images/dublin.jpg) no-repeat center 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: -1;
 
 }
 
@@ -554,7 +503,4 @@ ul {
         font-size: 4rem;
     }
 
-    .background-img {
-        height: 65vh;
-    }
 }
