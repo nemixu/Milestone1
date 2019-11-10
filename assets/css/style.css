@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-
+/*--Scroll behavior smooth used for slow and smooth transitions to other sections--*/
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
@@ -57,8 +57,6 @@ html {
     color: #000000;
 }
 
-
-
 .service-text {
     text-align: center;
     color: #ffffff;
@@ -94,9 +92,10 @@ html {
     color: #7e48b9;
 }
 
-
 /*------------Navbar--------------*/
 
+/*--box shadow added to give a slight contrast between sections that have the same color as the nav and also
+to make it seem it is floating slightly--*/
 .navbar {
     background: #212529;
     padding-bottom: 0;
@@ -105,7 +104,7 @@ html {
     font-size: 16px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
 }
-
+/*--Use of important here to override the set colours in bootstrap--*/
 .nav-link {
     color: #ffffff !important;
     font-size: 2.4vh;
@@ -126,6 +125,7 @@ html {
 
 
 /*-----Landing Page Image-----*/
+/*--Lineargradient added here to give a slight contrast to the image--*/
 #intro-image {
     background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/hand2.jpg) no-repeat center 75%;
     -webkit-background-size: cover;
@@ -145,6 +145,7 @@ html {
     text-align: center;
 }
 
+/*--text-shadow added to make it pop against the light background--*/
 #landing-text {
     margin: 0px 40px;
     padding-left: 15px;
@@ -186,6 +187,80 @@ html {
     background-color: #7e48b9b5;
 }
 
+/*-----About fibro-----*/
+.about-section {
+    padding: 200px 40px;
+    background-color: #212529;
+}
+
+.about-subsection {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/*-----Meet our team------*/
+.profile-head {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    color: #ffffff
+}
+
+.profile-team {
+    background-color: #212529;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+.profile-text {
+    color: #ffffff;
+}
+
+.team-padding {
+    padding: 0px 40px;
+}
+
+#emmaphoto {
+    border-radius: 50%;
+    height: 150px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    border-style: inset;
+    border-color: #7e48b9;
+}
+
+#audreyphoto {
+    border-radius: 50%;
+    height: 150px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    border-style: inset;
+    border-color: #7e48b9;
+}
+
+#johnphoto {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    border-style: outset;
+    border-color: #7e48b9;
+}
+
+#willphoto {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
+    border-style: outset;
+    border-color: #7e48b9;
+}
+
+.welcome-text {
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
 
 /*-----Services Main-----*/
 
@@ -246,6 +321,47 @@ html {
     margin-left: 30px;
 }
 
+/*-----Contact us Section-----*/
+.contact-main {
+    padding: 200px 40px;
+    background-color: #7e48b9;
+}
+
+.contact-header {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.contact-hello {
+    color: #fafafa;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#contact-name {
+    margin-bottom: 20px;
+}
+
+#contact-email {
+    margin-bottom: 20px;
+}
+
+#contact-message {
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+#contactButton {
+    width: 100px;
+    border-color: transparent !important;
+    margin-top: 20px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000;
+}
+
 /*-----Footer-----*/
 
 footer {
@@ -257,6 +373,16 @@ footer {
 }
 
 .footer-spacing {
+    padding-top: 50px;
+}
+
+.footer-spacing-social {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.footer-spacing-sub {
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -349,127 +475,6 @@ ul {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-/*-----About page background------*/
-
-
-
-.profile-head {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-    color: #ffffff
-}
-
-.profile-team {
-    background-color: #212529;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-}
-
-.profile-text {
-    color: #ffffff;
-}
-
-.team-padding {
-    padding: 0px 40px;
-}
-
-#emmaphoto {
-    border-radius: 50%;
-    height: 150px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-    border-style: inset;
-    border-color: #7e48b9;
-
-}
-
-#audreyphoto {
-    border-radius: 50%;
-    height: 150px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-    border-style: inset;
-    border-color: #7e48b9;
-}
-
-#johnphoto {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-    border-style: outset;
-    border-color: #7e48b9;
-}
-
-#willphoto {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, .1);
-    border-style: outset;
-    border-color: #7e48b9;
-}
-
-.welcome-text {
-    font-weight: 300;
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-size: 40px;
-}
-
-/*newsection*/
-.about-section {
-    padding: 200px 40px;
-    background-color: #212529;
-
-}
-
-.about-subsection {
-    color: #ffffff;
-    font-weight: 300;
-
-}
-
-.contact-main {
-    padding: 200px 40px;
-    background-color: #7e48b9;
-}
-
-.contact-header {
-    color: #fafafa;
-    font-weight: 300;
-    font-size: 40px;
-}
-
-.contact-hello {
-    color: #fafafa;
-    font-weight: 300;
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-
-#contact-name {
-    margin-bottom: 20px;
-}
-
-#contact-email {
-    margin-bottom: 20px;
-}
-
-#contact-message {
-    margin-bottom: 20px;
-    height: 120px;
-}
-
-#contactButton {
-    width: 100px;
-    border-color: transparent !important;
-    margin-top: 20px;
-    width: 100px;
-    background-color: #ffffff;
-    color: #000;
-}
-
 /*-----Media Queries------*/
 
 @media (min-width: 320px) {
@@ -482,6 +487,12 @@ ul {
     #landing-sub {
         font-size: 1.3rem;
     }
+
+    .footer-spacing-sub {
+    padding-top: 10px;
+    padding-bottom: 0px;;
+
+}
 }
 
 @media (min-width: 768px) {
@@ -494,6 +505,12 @@ ul {
     #landing-sub {
         font-size: 2rem;
     }
+
+    .footer-spacing-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 }
 
 @media (min-width: 992px) {
@@ -502,5 +519,11 @@ ul {
     #landing-text {
         font-size: 4rem;
     }
+
+    .footer-spacing-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 
 }
