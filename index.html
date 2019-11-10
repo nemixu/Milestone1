@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="#" type="#">
+    <link rel="shortcut icon" href="favicon.ico" type="image/png">
     <!-- Imports for style sheets, bootstrap, icons, font family-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
@@ -317,17 +317,17 @@
                                     <div class="col-md-6">
                                         <div class="group-form">
                                             <label for="contact-name"></label>
-                                            <input class="form-control" type="text" name="your name" id="contact-name" placeholder="Your Name *" required="required">
+                                            <input class="form-control" type="text" name="your name" id="contact-name" aria-label="your name" placeholder="Your Name *" required="required">
                                     </div>
                                         <div class="group-form">
                                         <label for="contact-email"></label>
-                                            <input class="form-control" name="your email" type="text" id="contact-email" placeholder="Your Email *" required="required">
+                                            <input class="form-control" name="your email" type="text" id="contact-email" aria-label="your email" placeholder="Your Email *" required="required">
                                     </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="group-form">
                                             <label for="contact-message"></label>
-                                            <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message *" required="required"></textarea>
+                                            <textarea class="form-control" name="message" id="contact-message" aria-label="your message" placeholder="Your Message *" required="required"></textarea>
                                     </div>
                                     </div>
                                     <div class="col-lg-12 text-center">
@@ -357,8 +357,8 @@
                             <div class="col-sm-4 col-md-4 col-lg-4 text-center footer-spacing">
                                 <h5 class="uppercase general-sub">Subscribe To Our News Letter</h5>
                                     <form>
-                                 <div class="input-prepend">
-                                    <input type="text" id="your-email" name="your-email" placeholder="Enter Your Email" required="required">
+                                 <div class="newsletter-group">
+                                    <input type="email" class="form-control" id="your-email" name="your-email" aria-label="your email" placeholder="Enter Your Email" required="required">
                         </div>
                         <br/>
                                     <input type="submit" value="Subscribe Now!" class="btn btn-large btn-success" />
@@ -375,16 +375,16 @@
                         </li>
 
                         <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="#">
-                                <i class="fa fa-github" aria-hidden="true"></i>
-                                <span class="sr-only">Github</span>
+                            <a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UC1z4P8CCAiBdACh18Zqmvzw">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
                             </a>
                         </li>
 
                         <li class="list-inline-item">
-                            <a target="_blank" rel="noopener" href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                <span class="sr-only">LinkedIn</span>
+                            <a target="_blank" rel="noopener" href="https://www.instagram.com/fibromyalgiaireland/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                     </ul>
