@@ -47,7 +47,7 @@
                     <a class="nav-link " href="#our-team">Our Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -152,7 +152,6 @@
             <div class="row">
                 <div class="col">
                     <h2 class="text-center service-maintext">Services</h2>
-                    <h5 class="service-subtext">What We Offer</h5>
                     <hr class="white-divider">
                 </div>
             </div>
@@ -204,7 +203,7 @@
             </div>
         </div>
         <hr class="purple-divider">
-        <div class="container">
+        <div class="container team-padding">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <!--Below div is used to seperate the img class and allow with centering the image inside the flex container-->
@@ -262,7 +261,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-lg-8 text-center">
-                    <h2 class="contact-text text-uppercase"> Volunteer with us!</h2>
+                    <h2 class="contact-text"> Volunteer with us!</h2>
                     <h4 class="contact-subheading">Help make someones life better</h4>
                     <hr class="purple-divider">
                     <p id="volunteer-text">We are constantly looking for individuals who can spare some time
@@ -325,19 +324,19 @@
     </section>
 
     <!--Contact Section headers-->
-    <section class="contact-main">
+    <section class="contact-main" id="contact">
         <div class="container" id="contact-box">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="contact-header text-center">Our team is here to help.</h2>
                     <h4 class="contact-hello text-center">Reach out for our support!</h4>
-                    <hr class="line-divider">
+                    <hr class="white-divider">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <!--Start of contact form-->
-                    <form id="contactpageform" name="contactform" novalidate="novalidate">
+                    <form id="contactpageform" name="contactform">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="group-form">
@@ -374,11 +373,10 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4 col-md-4 col-lg-4 footer-spacing">
-                <h5 class="uppercase general-sub">Links</h5>
-                <ul class="additional-links-footer">
+                    <ul class="additional-links-footer">
                     <li class="footer-item"><a href="assets/docs/policy.pdf" target="_blank">Privacy Policy</a></li>
                     <li class="footer-item"><a href="assets/docs/services.pdf" target="_blank">Services</a></li>
-                    <li class="footer-item"><a href="contact.html">Contact</a>
+                    <li class="footer-item"><a href="https://www.ifundraise.ie/FibromyalgiaSupportIreland/3880/donate" rel="noopener" target="_blank">Donate</a>
                     </li>
                 </ul>
             </div>
@@ -386,7 +384,7 @@
                 <h5 class="uppercase general-sub">Subscribe To Our News Letter</h5>
                 <form>
                     <div class="newsletter-group">
-                        <input type="email" class="form-control" id="your-email" name="your-email"
+                        <input type="email" id="your-email" name="your-email"
                             aria-label="your email" placeholder="Enter Your Email" required="required">
                     </div>
                     <br />
@@ -394,8 +392,7 @@
                 </form>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 footer-spacing">
-                <h5 class="uppercase general-sub">Connect With Us</h5>
-                <ul class="list-inline social-links">
+                    <ul class="list-inline social-links">
                     <li class="list-inline-item">
                     <!--noopener added for additional security *as advised by google audits using lighthouse*-->
                         <a target="_blank" rel="noopener" href="https://www.facebook.com/fibromyalgiairelandclg/">
