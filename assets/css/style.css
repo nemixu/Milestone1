@@ -362,12 +362,18 @@ to make it seem it is floating slightly--*/
 
 #contactButton {
     width: 100px;
-    border-color: transparent !important;
     margin-top: 20px;
-    width: 100px;
+    color: #7e48b9;
     background-color: #ffffff;
-    color: #000;
+    border-color: #7e48b9;
 }
+
+#contactButton:hover {
+    color: #fafafa;
+    background-color: #7e48b9b5;
+    border-color: #ffffff;
+}
+
 
 /*-----Footer-----*/
 
