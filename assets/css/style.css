@@ -176,9 +176,10 @@ to make it seem it is floating slightly--*/
 }
 
 .btn-light {
-    color: #e1e1e1;
-    background-color: #7e48b9;
+    color: #7e48b9;
+    background-color: #ffffff;
     border-color: #7e48b9;
+    margin-top:40px;
 }
 
 .btn-light:hover {
