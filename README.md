@@ -8,6 +8,10 @@ Its aim is to highlight the condition, raise awareness and offer solutions to pe
 The idea behind the project is to help their current social media platform - introduce a user friendly site with some basic information.
 Fibromyalgia is a popular medical condition, in recent years the diagnosis is rapidly growing but with few resources to show what support is available we are attempting to highlight the illness and give resources and try and build a community where users can turn to for support or tips and tricks.
 
+## Showcase
+A deployed link to the website can be found [here](https://nemixu.github.io/Milestone1/).
+
+![Preivew](https://github.com/nemixu/Milestone1/blob/master/assets/images/wireframes/laptop%20landing%20page.png)
 ## UX
 
 ### User Stories
