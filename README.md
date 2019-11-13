@@ -12,6 +12,8 @@ Fibromyalgia is a popular medical condition, in recent years the diagnosis is ra
 A deployed link to the website can be found [here](https://nemixu.github.io/Milestone1/).
 
 ![Preivew](https://github.com/nemixu/Milestone1/blob/master/assets/images/wireframes/laptop%20landing%20page.png)
+
+
 ## UX
 
 ### User Stories
@@ -183,9 +185,10 @@ PWA - not tested.
 
 [Results can be found here](https://github.com/nemixu/Milestone1/blob/master/assets/images/wireframes/lighthouse%20audit.PNG)
 
-During my testing - typed in my address bar about to see if it would bring me to the about section without clicking the navbar, it brought me to a blank 404 page not found. This gave me the idea to ensure that if a user done this they have a 404page associated with my site showing up and they have a button to bring them back without frustrating the user ( I followed a youtube tutorial on how to setup the apache file to find the destination of the file) I just used the normal page layout but added a button and text saying oops you have landed on the wrong page go back.
-https://nemixu.github.io/Milestone1/232
-A link above brings you to the 404page.
+During my testing I typed something into my address bar to navigate to the about section to see if it would bring me to the about section without clicking the navbar, it brought me to a blank 404 page not found. This gave me the idea to ensure that if a user done this they have a 404page associated with my site showing up and they have a button to bring them back without frustrating the user ( I followed a youtube tutorial on how to setup the apache file to find the destination of the file) I just used the normal page layout but added a button and text saying oops you have landed on the wrong page go back.
+
+[Click here to see the 404 page](https://nemixu.github.io/Milestone1/232)
+
 On mobile devices I found that the main landing image was taking longer to load on mobile devices than on desktop or tablets. This was due to the file size - and has since been compressed for faster loading on all devices.
 
 ### Deployment
@@ -205,7 +208,7 @@ If you wish to run this project locally.
 3. Open in your preffered IDE
 4. Run on local server
 
-## bugs
+## Bugs
 
 During the early development of this project I ran into difficulty blurring the background image on the landing page.
 After figuring the problem was due to my html structure being incorrect, it helped me understand that having the correct html structure is key! and if my styling is not working smoothly it must be an issue with my core html structure. So my solution to this problem was adding a seperate div to the figure and giving it a seperate id and then adding an id to my paragraph. Later on in the development I decided against the overall style but in gerneral it thought me a good lesson of html structres.
@@ -227,27 +230,39 @@ The off white colour was not strong enough to give a hard contrast and was chang
 All my images that were used during the development of this site were taken from,
 https://www.pexels.com/
 https://unsplash.com/
+
 Although only one image was used in the end.
 
 fontawesome was used for the favicions throughout the page.
+
 https://fontawesome.com/
 
 Gave a great break down and helped me understand modal forms, I also used their example of the modal form - but was heavily modified to work for my project.
 https://mdbootstrap.com/docs/jquery/modals/forms/
 
 helped with collapse button class for mobile view (when you click an anchor tag it closes the burger menu)
+
 https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
 
-Original wireframes were created with wireframe.cc
+Original wireframes were created with 
+
+wireframe.cc
 
 readme template taken from
+
 https://github.com/Code-Institute-Solutions/readme-template
 
 help with the bootstrap grid and layout
+
 https://ajgreaves.github.io/bootstrap-grid-demo/index.html
 
 bootstrap cheat sheet to help remember class names and show what classes done etc.
+
 https://hackerthemes.com/bootstrap-cheatsheet/
+
+Inspiration from some of the features came from the below deployed templates created by this user.
+
+https://github.com/BlackrockDigital
 
 ### Content
 
@@ -258,3 +273,10 @@ All content on this site is original documentation and profile pictures have bee
 - I would like to Acknowledge Anthony O'Brien - for his continued tips and tricks throught this project and helped with some debugging that was ongoing early on.
 - Simen Daehlin for his review on the project and giving constructive feedback and changes to be made.
   -Aleksander Andersen for his suggestions on readme file.
+
+
+
+
+**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Stephen Seagrave**
