@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:,300,400,500,');
 
 
 /*--Scroll behavior smooth used for slow and smooth transitions to other sections--*/
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16px;
 }
 
 /*------------Line dividers--------------*/
@@ -17,6 +21,7 @@ html {
     border: none;
     border-top: 1px solid rgb(126, 72, 185);
 }
+
 /*-- Long purple line used in the about section --*/
 .purple-line {
     border-width: .2rem;
@@ -68,7 +73,7 @@ html {
 }
 
 .service-circle {
-    font-size: 150px;
+    font-size: 9.375rem;
     color: #ffffff;
     text-align: center;
     width: 100%;
@@ -77,14 +82,14 @@ html {
 }
 
 .service-maintext {
-    font-size: 40px;
+    font-size: 	2.5rem;
     color: #ffffff;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
 .service-icon {
-    font-size: 50px;
+    font-size: 3.125rem;
     left: 0;
     top: 50px;
     position: absolute;
@@ -102,17 +107,17 @@ to make it seem it is floating slightly--*/
     padding-bottom: 0;
     padding-top: 0;
     text-align: center;
-    font-size: 16px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
 }
+
 /*--Use of important here to override the set colours in bootstrap--*/
 .nav-link {
     color: #ffffff !important;
-    }
+}
 
 .nav-link:hover {
     color: #7e48b9 !important;
-    }
+}
 
 .navbar-light .navbar-brand {
     color: #ffffff !important;
@@ -173,7 +178,7 @@ to make it seem it is floating slightly--*/
 
 .home-maintext {
     font-weight: 300;
-    font-size: 40px;
+    font-size: 	2.5rem;
 
 }
 
@@ -181,7 +186,7 @@ to make it seem it is floating slightly--*/
     color: #7e48b9;
     background-color: #ffffff;
     border-color: #7e48b9;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .btn-light:hover {
@@ -262,7 +267,7 @@ to make it seem it is floating slightly--*/
     font-weight: 300;
     color: #ffffff;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 	2.5rem;
 }
 
 /*-----Services Main-----*/
@@ -282,7 +287,7 @@ to make it seem it is floating slightly--*/
 .contact-text {
     font-weight: 300;
     color: #000000;
-    font-size: 40px;
+    font-size: 	2.5rem;
 }
 
 .contact-subheading {
@@ -339,13 +344,13 @@ to make it seem it is floating slightly--*/
 .contact-header {
     color: #fafafa;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .contact-hello {
     color: #fafafa;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 50px;
 }
 
@@ -438,7 +443,7 @@ ul {
     height: 52px;
     padding: 22px 0;
     border-radius: 50%;
-    font-size: 23px;
+    font-size: 1.4375rem;
     line-height: 7px;
     text-align: center;
     color: #7E48B9;
@@ -478,6 +483,7 @@ ul {
     background-color: #7e48b9;
     border-color: #7e48b9;
 }
+
 #your-email {
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -488,18 +494,19 @@ ul {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 /*-----Media Queries------*/
 @media screen and (min-width: 320px) {
+
     /* Landing page main text for iphone5's etc with smaller screens */
     #landing-text {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
-    
+
     .navbar-brand {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
@@ -515,15 +522,17 @@ ul {
     }
 
     .footer-spacing-sub {
-    padding-top: 10px;
-    padding-bottom: 0px;;
-}
+        padding-top: 10px;
+        padding-bottom: 0px;
+        ;
+    }
+
     .about-subsection {
-    text-align: center;
+        text-align: center;
     }
 
     .white-text {
-    text-align: center;
+        text-align: center;
     }
 }
 
@@ -539,15 +548,17 @@ ul {
     }
 
     .footer-spacing-sub {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-    .white-text {
-    text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
+
+    .white-text {
+        text-align: left;
+    }
+
     .navbar-brand {
-    font-size: 1.15rem;
-}
+        font-size: 1.15rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -558,11 +569,16 @@ ul {
     }
 
     .footer-spacing-sub {
-    padding-top: 50px;
-    padding-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
 
-}
+    }
+
     .navbar-brand {
-    font-size: 1.25rem;
-}
+        font-size: 1.25rem;
+    }
+
+    .navbar-nav {
+        font-size: 1.2rem;
+    }
 }
