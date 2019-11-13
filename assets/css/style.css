@@ -4,11 +4,11 @@
 /*--Scroll behavior smooth used for slow and smooth transitions to other sections--*/
 html {
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-}
+   }
 
 body {
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*------------Line dividers--------------*/
@@ -392,40 +392,41 @@ footer {
     text-align: center;
 }
 
-.footer-spacing {
+#footer-spacing {
     padding-top: 50px;
 }
 
-.footer-spacing-social {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-.footer-spacing-sub {
+#footer-spacing-social {
     padding-top: 50px;
     padding-bottom: 50px;
 
 }
 
-.general-sub {
+#footer-spacing-sub {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#general-sub {
     color: #ffffff;
     padding-bottom: 5px;
     font-weight: 300;
 }
 
-.additional-links-footer {
+#additional-links-footer {
     margin-right: 30px;
     text-decoration: none;
 }
 
-.additional-links-footer li a {
+#additional-links-footer li a {
     color: #ffffff;
     line-height: 30px;
 }
 
-.additional-links-footer li a:hover {
+#additional-links-footer li a:hover {
     color: #7e48b9;
+    text-decoration: none;
 }
 
 
