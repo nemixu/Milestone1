@@ -354,15 +354,15 @@ to make it seem it is floating slightly--*/
     margin-bottom: 50px;
 }
 
-#contact-name {
+#contactName {
     margin-bottom: 20px;
 }
 
-#contact-email {
+#contactEmail {
     margin-bottom: 20px;
 }
 
-#contact-message {
+#contactMessage {
     margin-bottom: 20px;
     height: 120px;
 }
