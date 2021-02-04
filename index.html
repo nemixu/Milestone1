@@ -46,9 +46,6 @@
 						<a class="nav-link " href="#services">Services</a>
 					</li>
 					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-						<a class="nav-link " href="#our-team">Our Team</a>
-					</li>
-					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
 						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
@@ -203,7 +200,9 @@
 
 
 	<!--Our team-->
-	<section class="profile-team" id="our-team">
+
+	<!--
+		<section class="profile-team" id="our-team">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -215,7 +214,6 @@
 		<div class="container team-padding">
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-3">
-					<!--Below div is used to seperate the img class and allow with centering the image inside the flex container-->
 					<div class="text-center">
 						<img src="assets/images/emma.jpg" alt="emma pic" class="img-circle" id="emmaphoto">
                     </div>
@@ -273,6 +271,9 @@
 							</div>
 						</div>
 	</section>
+
+	-->
+	
 
 
 	<!--Volunteer Section-->
@@ -403,52 +404,49 @@
 		<div class="row">
 			<div class="col-sm-4 col-md-4 col-lg-4" id="footer-spacing">
 				<ul id="additional-links-footer">
-					<li class="footer-item"><a href="assets/docs/policy.pdf" target="_blank">Privacy Policy</a></li>
+					<li class="footer-item"><a href="https://www.privacypolicygenerator.info/live.php?token=it7HtaLNvGTFvABamY0kXn08ox25n2Ig" target="_blank">Privacy Policy</a></li>
 					<li class="footer-item"><a href="assets/docs/services.pdf" target="_blank">Services</a></li>
+					<li class="footer-item"><a href="assets/docs/accessibility.html" target="_blank">Accessibility Statement</a></li>
 					<li class="footer-item"><a href="https://www.ifundraise.ie/FibromyalgiaSupportIreland/3880/donate"
 							rel="noopener" target="_blank">Donate</a>
 					</li>
+
 				</ul>
 			</div>
-			<div class="col-sm-4 col-md-4 col-lg-4 text-center" id="footer-spacing-sub">
-				<h5 class="uppercase" id="general-sub">Subscribe To Our News Letter</h5>
-				<form>
-					<div class="newsletter-group">
-						<input type="email" id="your-email" name="your-email"
-                            aria-label="your email" placeholder="Coming Soon" required="required">
-                    </div>
-						<br />
-						<input type="submit" value="Subscribe Now!" class="btn btn-large btn-success" />
-                </form>
-					</div>
-					<div class="col-sm-4 col-md-4 col-lg-4" id="footer-spacing-social">
-						<ul class="list-inline social-links">
-							<li class="list-inline-item">
-								<!--noopener added for additional security *as advised by google audits using lighthouse*-->
-								<a target="_blank" rel="noopener"
-									href="https://www.facebook.com/fibromyalgiairelandclg/">
-									<i class="fa fa-facebook" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span>
-								</a>
-							</li>
-
-							<li class="list-inline-item">
-								<a target="_blank" rel="noopener"
-									href="https://www.youtube.com/channel/UC1z4P8CCAiBdACh18Zqmvzw">
-									<i class="fa fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">Youtube</span>
-								</a>
-							</li>
-
-							<li class="list-inline-item">
-								<a target="_blank" rel="noopener" href="https://www.instagram.com/fibromyalgiaireland/">
-									<i class="fa fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-								</a>
-							</li>
-						</ul>
-					</div>
+			<div class="col-sm-4 col-md-4 col-lg-4 text-center d-flex flex-column" id="footer-spacing-sub">
+				<span class='footer-item'>CRO Number: 650891</span>
+				<span class='footer-item'>CHY Number: 22604</span>
+				<span class='footer-item'>RCN: 20205572</span>
+	
 			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4" id="footer-spacing-social">
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<!--noopener added for additional security *as advised by google audits using lighthouse*-->
+						<a target="_blank" rel="noopener"
+							href="https://www.facebook.com/fibromyalgiairelandclg/">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+
+					<li class="list-inline-item">
+						<a target="_blank" rel="noopener"
+							href="https://www.twitter.com/fibromyalgiaireland">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+
+					<li class="list-inline-item">
+						<a target="_blank" rel="noopener" href="https://www.instagram.com/fibromyalgiaireland/">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</footer>
 
 	<!--Jquery bootstrap and propper js scripts added for additional functionality-->
